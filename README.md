@@ -23,3 +23,6 @@ x=2, y=3, z=1 (in gridpoint units) and recorded in a 10000 receiver array coveri
 all the surface. Receivers are placed every second gridpoint in both directions.
 The number of samples per trace is 2000 and the total simulated time is 5 seconds,
 ie the sampling interval is 0.0025 seconds.
+
+#####segy format
+The document seg_y_rev1.pdf containst the sgy format specifications.
