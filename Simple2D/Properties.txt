@@ -1,0 +1,21 @@
+All file have been saved in double precison
+
+Model dimensions :
+
+
+256 x 1100 (nz x nx) z is first dimension
+grid size 5m in both direcions
+
+Data
+
+nt : number of time samples
+nrec : number of receivers per source
+nsrc : number of source
+
+501 x 441 x 111 (nt x nrec x nsrc)
+
+a single source experiment (one shot) is data[:,:,i] for i in 1:28
+
+source position are 0:200:5500 (in m)
+receiver positions are 0:12.5:550 (in m)
+time axis is 0:4:2000 (in ms)
