@@ -26,3 +26,6 @@ ie the sampling interval is 0.0025 seconds.
 
 #####segy format
 The document seg_y_rev1.pdf containst the sgy format specifications.
+
+###Git Large File Storage
+Git Large File Storage (LFS) is used for some large files. Git LFS replaces large files with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. In order to receive the files one needs to install git-lfs first. Please follow the instructions on [Git LFS](https://git-lfs.github.com/).
