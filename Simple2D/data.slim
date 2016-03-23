@@ -1,0 +1,15 @@
+model = {filename:"SmoothM.lfs",
+         dimensions:(256, 1100),
+         spacing:(5, 5),
+         origin:(0, 0),
+         dtype:"double",
+         units:"s**2/km**2"}
+shots = {filename:"data.lfs",
+         number_shots:28,
+         number_receivers:441,
+         number_samples:501,
+         sampling_time:4,
+         source_positions:arange(0., 5500.+1, 200),
+         source_positions:arange(0., 550.+1, 12.5),
+         dtype:"double",
+         units:"s**-3"}
